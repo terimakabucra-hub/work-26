@@ -3,7 +3,7 @@ import axios from "axios";
 // Local dev: http://localhost:5000/api
 // After backend deploy: change to your Render URL e.g. https://your-app.onrender.com/api
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+baseURL: "https://work-26.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
